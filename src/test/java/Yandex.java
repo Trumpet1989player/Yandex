@@ -14,13 +14,13 @@ import pages.*;
 /**
  * Created by Олег on 16.03.2016.
  */
-public class Yandex {
+public class  Yandex {
     WebDriver driver;
 
 //    @BeforeClass
 //    public static void before() {
 //    }
-
+ПЕНИССС
     @Before
     public void setup() {
         driver = new FirefoxDriver();
