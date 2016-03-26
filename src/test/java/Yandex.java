@@ -20,7 +20,7 @@ public class  Yandex {
 //    @BeforeClass
 //    public static void before() {
 //    }
-ПЕНИССС
+
     @Before
     public void setup() {
         driver = new FirefoxDriver();
