@@ -17,8 +17,11 @@ public class Widgets extends SitesBlocks {
     @FindBy(xpath = "//a[contains(@href, '/pogoda.yandex.ru')]")
     public List<WebElement> weather;
 
-    @FindBy(xpath = "//*[@id=\"wd-_weather\"]/div/h1/a[2]")
-    public WebDriver penis;
+    @FindBy(css = "[name=productStatus]")
+    public List<WebElement> statuses;
+
+//    @FindBy(xpath = "//*[@id=\"wd-_weather\"]/div/h1/a[2]")
+//    public WebDriver ;
 
     public void clickToWeather() {
 
