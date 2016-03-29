@@ -21,7 +21,7 @@ public class Widgets extends SitesBlocks {
     public List<WebElement> statuses;
 
 //    @FindBy(xpath = "//*[@id=\"wd-_weather\"]/div/h1/a[2]")
-//    public WebDriver penis;
+//    public WebDriver weather;
 
     public void clickToWeather() {
 
